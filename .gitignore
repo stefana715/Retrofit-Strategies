@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Raw EnergyPlus simulation output directories (large binary/text files, ~573 MB)
+# Processed results are in data/processed/*.csv
+data/simulation/
+
+# Claude internal
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Misc
+*.tmp
+*.bak

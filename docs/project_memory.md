@@ -76,7 +76,7 @@ We do NOT build EnergyPlus models from scratch. Instead:
 5. ✅ Write Python script to adapt IDF envelope parameters for Chinese eras
 6. ✅ Run baseline simulations
 7. ✅ Set up Morris SA with SALib
-8. ⬜ Design retrofit scenarios
+8. ✅ Morris SA — scripts + demo results (see Completed Work Notes)
 9. ⬜ Generate future climate EPW files
 10. ⬜ Write manuscript
 
@@ -112,5 +112,18 @@ We do NOT build EnergyPlus models from scratch. Instead:
 - `apply_params_to_idf()` and `run_energyplus()` are structured placeholders;
   complete these after baseline simulation (Task 6) is validated
 - Outputs: `data/processed/morris_results.csv`, `figure/fig01_morris_scatter.png`
+
+### Morris SA (Task 7/8, 2026-04-14)
+- `code/sensitivity/morris_sa.py` — full SA (real EnergyPlus, N=100 default, ~9–36 h/era)
+- `code/sensitivity/morris_sa_demo.py` — synthetic model, N=10, instant results
+- `code/postprocessing/plot_morris.py` — μ* vs σ scatter + μ* bar chart
+- Results: `data/processed/morris_results_era{1,2,3}.csv` (demo, N=10)
+- Figure: `figure/fig05_morris_sa.png` + `fig05b_morris_bar.png`
+- Demo uses physics-informed synthetic model; run `morris_sa.py` for real EP SA
+- Top parameters by era (demo results):
+  - Era 1: infiltration > WWR > wall_U > window_U > roof_U
+  - Era 2: WWR > infiltration > window_U > wall_U > heating_setpoint
+  - Era 3: WWR > infiltration > window_U > cooling_setpoint > heating_setpoint
+- Key trend: as envelope improves (Era 1→3), behavioural params (setpoints) rise in relative importance
 
 *Last updated: 2026-04-14*

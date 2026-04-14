@@ -1,0 +1,305 @@
+Program Version,EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.04.14 19:02,
+   ** Warning ** ProcessScheduleInput: Schedule:Compact = ZONE CONTROL TYPE SCHED
+   **   ~~~   ** Schedule Type Limits Name = CONTROL TYPE, item not found.
+   **   ~~~   ** Schedule will not be validated.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=ATLANTA-HARTSFIELD.JACKSON.INTL.AP_GA_USA WMO=722190
+   **   ~~~   ** ..Weather File Location=Changsha HN CHN SRC-TMYx WMO#=576870
+   **   ~~~   ** ..due to location differences, Latitude difference=[5.53] degrees, Longitude difference=[197.22] degrees.
+   **   ~~~   ** ..Time Zone difference=[13.0] hour(s), Elevation difference=[61.66] percent, [193.00] meters.
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 S SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 W SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 W NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 N NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 S SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 E SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 E NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 N NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 N N1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 N N2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 S S1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 S S2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 S SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 W SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 W NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 N NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 S SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 E SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 E NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 N NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 N N1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 N N2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 S S1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 S S2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 S SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 W SWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 W NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 N NWA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 S SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 E SEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 E NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 N NEA is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 N N1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 N N2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 S S1A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=TWINDOW1 S S2A is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** CheckUsedConstructions: There are 29 nominally unused constructions in input.
+   **   ~~~   ** Each Unused construction is shown.
+   ************* Construction=AIR_WALL
+   ************* Construction=DROPCEILING
+   ************* Construction=OPAQUEDOOR
+   ************* Construction=ATTICROOFDECK
+   ************* Construction=EXT_SLAB_8IN
+   ************* Construction=EXT_SLAB_6IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_6IN
+   ************* Construction=INT_SLAB_FLOOR
+   ************* Construction=BASEMENT_WALL
+   ************* Construction=INT_WOOD_FLOOR
+   ************* Construction=EXT_SOFFIT_FLOOR
+   ************* Construction=NONRES_ROOF
+   ************* Construction=RES_ROOF
+   ************* Construction=SEMIHEATED_ROOF
+   ************* Construction=NONRES_EXT_WALL_GRD
+   ************* Construction=NONRES_EXT_WALL_MID
+   ************* Construction=NONRES_EXT_WALL_TOP
+   ************* Construction=RES_EXT_WALL_GRD
+   ************* Construction=RES_EXT_WALL_MID
+   ************* Construction=RES_EXT_WALL_TOP
+   ************* Construction=SEMIHEATED_EXT_WALL_GRD
+   ************* Construction=SEMIHEATED_EXT_WALL_MID
+   ************* Construction=SEMIHEATED_EXT_WALL_TOP
+   ************* Construction=NONRES_FLOOR
+   ************* Construction=RES_FLOOR
+   ************* Construction=SEMIHEATED_FLOOR
+   ************* Construction=NONRES_FLOOR_CEILING
+   ************* Construction=RES_FLOOR_CEILING
+   ************* Construction=SEMIHEATED_FLOOR_CEILING
+   ************* Beginning System Sizing Calculations
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GSW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GSW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GNW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GNW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT OFFICE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT OFFICE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GNE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GNE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GN1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GN1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GN2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GN2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GS1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GS1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT GS2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT GS2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MSW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MSW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MNW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MNW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MSE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MSE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MNE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MNE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MN1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MN1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MN2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MN2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MS1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MS1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT MS2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT MS2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TSW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TSW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TNW COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TNW COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TSE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TSE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TNE COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TNE COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TN1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TN1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TN2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TN2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TS1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TS1 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = SPLIT TS2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=SPLIT TS2 COOLING COIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_CAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = SPLIT_EIRFT
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 18 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 38 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 64 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 47.27sec

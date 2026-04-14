@@ -74,7 +74,7 @@ We do NOT build EnergyPlus models from scratch. Instead:
 3. ✅ Download Changsha TMY EPW file
 4. ✅ Obtain DOE prototype residential IDF files
 5. ✅ Write Python script to adapt IDF envelope parameters for Chinese eras
-6. ⬜ Run baseline simulations
+6. ✅ Run baseline simulations
 7. ✅ Set up Morris SA with SALib
 8. ⬜ Design retrofit scenarios
 9. ⬜ Generate future climate EPW files

@@ -1,0 +1,529 @@
+Program Version,EnergyPlus, Version 26.1.0-6f2e40d102, YMD=2026.04.14 19:03,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=ATLANTA-HARTSFIELD.JACKSON.INTL.AP_GA_USA WMO=722190
+   **   ~~~   ** ..Weather File Location=Changsha HN CHN SRC-TMYx WMO#=576870
+   **   ~~~   ** ..due to location differences, Latitude difference=[5.53] degrees, Longitude difference=[197.22] degrees.
+   **   ~~~   ** ..Time Zone difference=[13.0] hour(s), Elevation difference=[61.66] percent, [193.00] meters.
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW3 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW2 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW6 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW4 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW1 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW8 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW5 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW7 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW9 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW10 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW11 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=GWINDOW12 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW3 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW2 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW6 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW4 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW1 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW8 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW5 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW7 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW9 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW10 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW11 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** ProcessSurfaceVertices: Suspected 4-sided but non-rectangular Window, Door or GlassDoor:
+   **   ~~~   ** Surface=MWINDOW12 is transformed into an equivalent rectangular surface with the same area and aspect ratio. 
+   ** Warning ** CheckUsedConstructions: There are 29 nominally unused constructions in input.
+   **   ~~~   ** Each Unused construction is shown.
+   ************* Construction=AIR_WALL
+   ************* Construction=DROPCEILING
+   ************* Construction=OPAQUEDOOR
+   ************* Construction=ATTICROOFDECK
+   ************* Construction=EXT_SLAB_8IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_8IN
+   ************* Construction=EXT_SLAB_6IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_6IN
+   ************* Construction=BASEMENT_WALL
+   ************* Construction=INT_WOOD_FLOOR
+   ************* Construction=EXT_SOFFIT_FLOOR
+   ************* Construction=NONRES_ROOF
+   ************* Construction=RES_ROOF
+   ************* Construction=SEMIHEATED_ROOF
+   ************* Construction=NONRES_EXT_WALL_GRD
+   ************* Construction=NONRES_EXT_WALL_MID
+   ************* Construction=NONRES_EXT_WALL_TOP
+   ************* Construction=RES_EXT_WALL_GRD
+   ************* Construction=RES_EXT_WALL_MID
+   ************* Construction=RES_EXT_WALL_TOP
+   ************* Construction=SEMIHEATED_EXT_WALL_GRD
+   ************* Construction=SEMIHEATED_EXT_WALL_MID
+   ************* Construction=SEMIHEATED_EXT_WALL_TOP
+   ************* Construction=NONRES_FLOOR
+   ************* Construction=RES_FLOOR
+   ************* Construction=SEMIHEATED_FLOOR
+   ************* Construction=NONRES_FLOOR_CEILING
+   ************* Construction=RES_FLOOR_CEILING
+   ************* Construction=SEMIHEATED_FLOOR_CEILING
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G N1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G N1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G N2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G N2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G NE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G NE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G NW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G NW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G S1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G S1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G S2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G S2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G SW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP G SW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M N1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M N1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M N2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M N2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M NE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M NE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M NW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M NW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M S1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M S1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M S2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M S2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M SE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M SE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M SW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP M SW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP OFFICE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP OFFICE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T N1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T N1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T N2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T N2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T NE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T NE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T NW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T NW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T S1 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T S1 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T S2 COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T S2 COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T SE COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T SE COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T SW COOLING COIL"
+   **   ~~~   ** Total cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 0.956
+   ** Warning ** CheckSimpleWAHPRatedCurvesOutputs: Coil:Cooling:WaterToAirHeatPump:EquationFit="AIRLOOP T SW COOLING COIL"
+   **   ~~~   ** Sensible cooling capacity as a function of temperature curve output is not equal to 1.0 (+ or - 2%) at rated conditions.
+   **   ~~~   ** Curve output at rated conditions = 1.057
+   ************* SizeBoilerHotWater: Potential issue with equipment sizing for CENTRAL BOILER
+   **   ~~~   ** User-Specified Nominal Capacity of 484297.30 [W]
+   **   ~~~   ** differs from Design Size Nominal Capacity of 668221.93 [W]
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** CalcEquipmentFlowRates: "G SW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G NW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G NE APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G N1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G N2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G S1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "G S2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M SW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M NW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M SE APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M NE APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M N1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M N2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M S1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "M S2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T SW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T NW APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T SE APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T NE APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T N1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T N2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T S1 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** CalcEquipmentFlowRates: "T S2 APARTMENT SUB CAT" - Target water temperature is greater than the hot water temperature by (0.78 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   ** ...target water temperature     = 60.00 C
+   **   ~~~   ** ...hot water temperature        = 59.22 C
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ************* Simulation Error Summary *************
+   ************* There are 23 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Actual air mass flow rate is smaller than 25% of water-to-air heat pump coil rated air flow rate.
+   *************  **   ~~~   **   This error occurred 34839905 total times;
+   *************  **   ~~~   **   during Warmup 1477278 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.008411  Min=0.000268
+   *************
+   *************  ** Warning ** "G SW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G NW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G NE APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G N1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G N2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G S1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "G S2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M SW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M NW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M SE APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M NE APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M N1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M N2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M S1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "M S2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T SW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T NW APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T SE APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T NE APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T N1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T N2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T S1 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** "T S2 APARTMENT SUB CAT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 953727 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992883  Min=0.113071
+   *************
+   *************  ** Warning ** Plant loop exceeding upper temperature limit, PlantLoop="SINGLE WATER PLANT LOOP"
+   *************  **   ~~~   **   This error occurred 122 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=41.685710
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 26 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 56775846 Warning; 0 Severe Errors; Elapsed Time=00hr 01min 23.97sec

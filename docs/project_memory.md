@@ -78,8 +78,9 @@ We do NOT build EnergyPlus models from scratch. Instead:
 7. ✅ Set up Morris SA with SALib
 8. ✅ Morris SA — scripts + demo results (see Completed Work Notes)
 9. ✅ Design and simulate retrofit scenarios (15 EnergyPlus runs, see Completed Work Notes)
-10. ⬜ Generate future climate EPW files
-11. ⬜ Write manuscript
+10. ✅ Solar PV integration analysis (pvlib, see Completed Work Notes)
+11. ⬜ Generate future climate EPW files
+12. ⬜ Write manuscript
 
 ## File Conventions
 - Manuscripts: `draft/manuscript_v{N}.md`
@@ -145,5 +146,24 @@ We do NOT build EnergyPlus models from scratch. Instead:
 
 - Key finding: Air sealing (R4) dominates savings in older buildings; combined retrofit
   achieves 47% (Era 1), 35% (Era 2), 16% (Era 3) — diminishing returns as baseline improves
+
+### Solar PV integration (Task 10, 2026-04-14)
+- `code/simulation/solar_pv.py` — pvlib-based rooftop PV analysis (Changsha TMYx)
+- `code/postprocessing/plot_solar.py` — demand vs PV bar chart + monthly profile (fig08)
+- Results: `data/processed/solar_results.csv`, `data/processed/solar_monthly.csv`
+- Figure: `figure/fig08_solar_pv.png`
+- PV system: η=20%, PR=0.80, tilt=25°, south-facing; MidRise 72 kWp / HighRise 40 kWp
+- Annual PV: MidRise 85,841 kWh (27.4 kWh/m² floor), HighRise 47,689 kWh (6.1 kWh/m² floor)
+- Net energy balance (retrofitted EUI − PV/m² floor):
+
+| Archetype | Baseline EUI | R5+PV Net EUI | PV covers |
+|-----------|-------------|---------------|-----------|
+| Era 1 MidRise | 261.2 | 110.9 | 10.5% (baseline) / 17.9% (R5) |
+| Era 2 MidRise | 211.4 | 110.9 | 12.8% (baseline) / 17.9% (R5) |
+| Era 3 HighRise | 150.4 | 120.8 | 4.0% (baseline) / 4.8% (R5) |
+
+- Key finding: MidRise roof-to-floor ratio enables meaningful PV contribution (~18% self-sufficiency
+  after R5 retrofit); HighRise has poor roof-to-floor ratio (self-sufficiency only ~5%)
+- Self-consumption near 100% (residential demand >> midday PV peak)
 
 *Last updated: 2026-04-14*

@@ -77,8 +77,9 @@ We do NOT build EnergyPlus models from scratch. Instead:
 6. ✅ Run baseline simulations
 7. ✅ Set up Morris SA with SALib
 8. ✅ Morris SA — scripts + demo results (see Completed Work Notes)
-9. ⬜ Generate future climate EPW files
-10. ⬜ Write manuscript
+9. ✅ Design and simulate retrofit scenarios (15 EnergyPlus runs, see Completed Work Notes)
+10. ⬜ Generate future climate EPW files
+11. ⬜ Write manuscript
 
 ## File Conventions
 - Manuscripts: `draft/manuscript_v{N}.md`
@@ -125,5 +126,24 @@ We do NOT build EnergyPlus models from scratch. Instead:
   - Era 2: WWR > infiltration > window_U > wall_U > heating_setpoint
   - Era 3: WWR > infiltration > window_U > cooling_setpoint > heating_setpoint
 - Key trend: as envelope improves (Era 1→3), behavioural params (setpoints) rise in relative importance
+
+### Retrofit scenarios (Task 9, 2026-04-14)
+- `code/simulation/retrofit_scenarios.py` — applies 5 measures × 3 archetypes = 15 EP runs
+- `code/postprocessing/plot_retrofit.py` — grouped bar chart + R5 breakdown panel
+- Results: `data/processed/retrofit_results.csv` (18 rows: 3 baseline + 15 retrofit)
+- Figure: `figure/fig07_retrofit_savings.png`
+- Retrofit measures: R1 wall (U=0.4), R2 window (U=1.8, SHGC=0.35), R3 roof (U=0.3), R4 infiltration (0.3 ACH), R5 combined
+- Key results (total EUI savings vs baseline):
+
+| Retrofit       | Era 1 (~1980s) | Era 2 (~2000s) | Era 3 (~2010s+) |
+|----------------|---------------|----------------|-----------------|
+| R1 Wall        | 7.1%          | 4.9%           | 1.9%            |
+| R2 Window      | 3.9%          | 2.2%           | 2.2%            |
+| R3 Roof        | 4.2%          | 3.0%           | 0.3%            |
+| R4 Infiltration| 34.3%         | 26.7%          | 14.3%           |
+| R5 Combined    | 47.0%         | 34.6%          | 15.6%           |
+
+- Key finding: Air sealing (R4) dominates savings in older buildings; combined retrofit
+  achieves 47% (Era 1), 35% (Era 2), 16% (Era 3) — diminishing returns as baseline improves
 
 *Last updated: 2026-04-14*

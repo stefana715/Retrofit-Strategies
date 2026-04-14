@@ -71,11 +71,11 @@ We do NOT build EnergyPlus models from scratch. Instead:
 ## Immediate TODO (ordered)
 1. ✅ Lock study city: Changsha
 2. ✅ Lock approach: DOE prototypes + eppy modification
-3. ⬜ Download Changsha TMY EPW file
-4. ⬜ Obtain DOE prototype residential IDF files
-5. ⬜ Write Python script to adapt IDF envelope parameters for Chinese eras
+3. ✅ Download Changsha TMY EPW file
+4. ✅ Obtain DOE prototype residential IDF files
+5. ✅ Write Python script to adapt IDF envelope parameters for Chinese eras
 6. ⬜ Run baseline simulations
-7. ⬜ Set up Morris SA with SALib
+7. ✅ Set up Morris SA with SALib
 8. ⬜ Design retrofit scenarios
 9. ⬜ Generate future climate EPW files
 10. ⬜ Write manuscript
@@ -90,5 +90,27 @@ We do NOT build EnergyPlus models from scratch. Instead:
 - IDF models: `data/models/{archetype_name}.idf`
 
 ---
+
+## Completed Work Notes
+
+### Weather + IDF files (Tasks 1–2, 2026-04-14)
+- EPW: `data/climate/CHN_HN_Changsha.576870_TMYx.2007-2021.epw` (climate.onebuilding.org)
+- Base IDFs from energycodes.gov (via web.archive.org):
+  - MidRise STD2004 Atlanta → Era 1 & 2 base geometry
+  - MidRise STD2019 Atlanta → MidRise 2019 option
+  - HighRise STD2019 Atlanta → Era 3 base (STD2004 not available in Wayback Machine)
+
+### Envelope adaptation (Task 3, 2026-04-14)
+- `code/preprocessing/adapt_envelope.py` — uses eppy (primary) + text-based fallback
+- Outputs: `data/models/changsha_era{1,2,3}.idf`
+- eppy IDD version mismatch with v22.1 IDFs when EnergyPlus not installed;
+  text-based path handles all modifications correctly
+
+### Morris SA setup (Task 4, 2026-04-14)
+- `code/sensitivity/morris_sa.py` — SALib Morris with 10 parameters
+- Demo mode (`--demo`) runs without EnergyPlus using a synthetic model
+- `apply_params_to_idf()` and `run_energyplus()` are structured placeholders;
+  complete these after baseline simulation (Task 6) is validated
+- Outputs: `data/processed/morris_results.csv`, `figure/fig01_morris_scatter.png`
 
 *Last updated: 2026-04-14*

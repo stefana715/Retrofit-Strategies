@@ -54,7 +54,7 @@ OUT_FIG     = os.path.join(FIGURE_DIR, "fig09_climate_impact.png")
 # Style
 # ---------------------------------------------------------------------------
 FIG_W  = 7.2
-FIG_H  = 8.5
+FIG_H  = 11.0
 DPI    = 300
 FONT_S = 8.0
 FONT_L = 9.0
@@ -141,15 +141,17 @@ def _plot_eui_stacked(ax, df, era_label, show_legend=False):
                         ha="center", va="bottom",
                         fontsize=FONT_S - 2.0, color="#222222", rotation=90)
 
-    # Scenario group labels beneath the x-axis
+    y_bottom = -max_eui * 0.18   # reserve space below axis for scenario labels
+
+    # Scenario group labels — placed in data coordinates below the bars
     for c_idx, clim_key in enumerate(CLIMATE_ORDER):
-        centre = c_idx * (n_ret + 0.6)
+        centre   = c_idx * (n_ret + 0.6)
         scen_lbl = SCENARIO_XLABELS[clim_key]
         color    = SCENARIO_COLORS[clim_key]
-        ax.text(centre, -max_eui * 0.12, scen_lbl,
-                ha="center", va="top",
+        ax.text(centre, y_bottom * 0.5, scen_lbl,
+                ha="center", va="center",
                 fontsize=FONT_S - 0.5, color=color, fontweight="bold",
-                transform=ax.get_xaxis_transform())
+                clip_on=False)
 
     # Separator lines between scenario groups
     for c_idx in range(1, len(CLIMATE_ORDER)):
@@ -163,7 +165,8 @@ def _plot_eui_stacked(ax, df, era_label, show_legend=False):
         -1.0,
         (len(CLIMATE_ORDER) - 1) * (n_ret + 0.6) + 1.0
     )
-    ax.set_ylim(0, max_eui * 1.22)
+    ax.set_ylim(y_bottom, max_eui * 1.22)
+    ax.spines["bottom"].set_position(("data", 0))  # keep x-axis at 0
     ax.set_ylabel("EUI (kWh m⁻² yr⁻¹)", fontsize=FONT_L)
     ax.set_title(era_label, fontsize=FONT_L, pad=4, fontweight="bold")
 
@@ -308,9 +311,10 @@ def plot_climate_all(csv_path=CLIMATE_CSV, out_path=OUT_FIG):
               file=sys.stderr)
         return
 
-    fig = plt.figure(figsize=(FIG_W, FIG_H), constrained_layout=True)
+    fig = plt.figure(figsize=(FIG_W, FIG_H))
     gs  = fig.add_gridspec(n_eras + 1, 1,
-                           height_ratios=[1.0] * n_eras + [0.9])
+                           height_ratios=[1.0] * n_eras + [0.75],
+                           hspace=0.55)
     ax_top  = [fig.add_subplot(gs[i, 0]) for i in range(n_eras)]
     ax_bot  = fig.add_subplot(gs[n_eras, 0])
 
@@ -335,6 +339,7 @@ def plot_climate_all(csv_path=CLIMATE_CSV, out_path=OUT_FIG):
         ha="center", fontsize=5.8, color="#888888",
     )
 
+    fig.tight_layout(rect=[0, 0.02, 1, 0.98])
     plt.savefig(out_path, dpi=DPI, bbox_inches="tight",
                 facecolor="white", edgecolor="none")
     plt.close()

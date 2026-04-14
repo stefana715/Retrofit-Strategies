@@ -79,7 +79,7 @@ We do NOT build EnergyPlus models from scratch. Instead:
 8. ✅ Morris SA — scripts + demo results (see Completed Work Notes)
 9. ✅ Design and simulate retrofit scenarios (15 EnergyPlus runs, see Completed Work Notes)
 10. ✅ Solar PV integration analysis (pvlib, see Completed Work Notes)
-11. ⬜ Generate future climate EPW files
+11. ✅ Climate change scenario simulations (30 EP runs, see Completed Work Notes)
 12. ⬜ Write manuscript
 
 ## File Conventions
@@ -166,4 +166,29 @@ We do NOT build EnergyPlus models from scratch. Instead:
   after R5 retrofit); HighRise has poor roof-to-floor ratio (self-sufficiency only ~5%)
 - Self-consumption near 100% (residential demand >> midday PV peak)
 
-*Last updated: 2026-04-14*
+### Climate change scenario simulations (Task 11, 2026-04-15)
+- `code/preprocessing/generate_future_epw.py` — Belcher (2005) morphing from CMIP6 ΔT
+- `code/simulation/climate_scenarios.py` — 3 eras × 2 retrofits × 5 climates = 30 EP runs
+- `code/postprocessing/plot_climate.py` — stacked EUI bars + H/C ratio trend (fig09)
+- EPW files: `data/climate/Changsha_{2050/2080}_{SSP245/SSP585}.epw`
+- Results: `data/processed/climate_results.csv` (30 rows)
+- Figure: `figure/fig09_climate_impact.png`
+- Key results (Total EUI kWh/m²·yr — Baseline / R5 Combined):
+
+| Scenario | Era 1 BL | Era 1 R5 | Era 2 BL | Era 2 R5 | Era 3 BL | Era 3 R5 |
+|---|---|---|---|---|---|---|
+| Current | 261.2 | 138.3 | 211.4 | 138.3 | 150.4 | 126.9 |
+| 2050 SSP2-4.5 | 251.8 | 141.9 | 206.7 | 141.9 | 150.0 | 130.1 |
+| 2050 SSP5-8.5 | 250.1 | 142.8 | 205.9 | 142.8 | 150.1 | 130.9 |
+| 2080 SSP2-4.5 | 249.3 | 143.2 | 205.6 | 143.2 | 150.2 | 131.3 |
+| 2080 SSP5-8.5 | 246.2 | 148.0 | 205.6 | 148.0 | 152.2 | 134.9 |
+
+- Key findings:
+  - Baseline EUI decreases slightly under warming (less heating dominates), but R5 EUI INCREASES
+    (retrofit eliminates heating benefit, cooling penalty grows)
+  - Heating/cooling crossover (ratio <1): Era 1 BL already at 2080 SSP5-8.5 (heat=51.6, cool=74.3)
+  - Era 2 BL reaches crossover at 2080 SSP5-8.5 (heat=29.4, cool=59.1)
+  - Era 3 already cooling-dominated: heat/cool ratio = 0.72 in current climate
+  - R5 retrofit effectively eliminates heating in all scenarios — cooling becomes the sole challenge
+
+*Last updated: 2026-04-15*

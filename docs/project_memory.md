@@ -80,7 +80,7 @@ We do NOT build EnergyPlus models from scratch. Instead:
 9. ✅ Design and simulate retrofit scenarios (15 EnergyPlus runs, see Completed Work Notes)
 10. ✅ Solar PV integration analysis (pvlib, see Completed Work Notes)
 11. ✅ Climate change scenario simulations (30 EP runs, see Completed Work Notes)
-12. ⬜ Write manuscript
+12. ✅ Write manuscript (see Completed Work Notes)
 
 ## File Conventions
 - Manuscripts: `draft/manuscript_v{N}.md`
@@ -190,5 +190,12 @@ We do NOT build EnergyPlus models from scratch. Instead:
   - Era 2 BL reaches crossover at 2080 SSP5-8.5 (heat=29.4, cool=59.1)
   - Era 3 already cooling-dominated: heat/cool ratio = 0.72 in current climate
   - R5 retrofit effectively eliminates heating in all scenarios — cooling becomes the sole challenge
+
+### Manuscript v1 (Task 12, 2026-04-15)
+- `draft/manuscript_v1.md` — complete first draft (~10,000 words)
+- Structure: Abstract, Introduction (~1500w), Methodology (~2500w), Results (~3000w), Discussion (~1500w), Conclusions (~500w), 40 references
+- All actual simulation numbers cited inline from CSVs
+- Tables 1–7 embedded in text; figure cross-references included (Fig. 4–8)
+- Status: ready for author review and revision
 
 *Last updated: 2026-04-15*

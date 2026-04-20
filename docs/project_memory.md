@@ -81,6 +81,7 @@ We do NOT build EnergyPlus models from scratch. Instead:
 10. ✅ Solar PV integration analysis (pvlib, see Completed Work Notes)
 11. ✅ Climate change scenario simulations (30 EP runs, see Completed Work Notes)
 12. ✅ Write manuscript (see Completed Work Notes)
+13. ✅ Generate all 14 publication-quality figures (see Completed Work Notes)
 
 ## File Conventions
 - Manuscripts: `draft/manuscript_v{N}.md`
@@ -198,4 +199,23 @@ We do NOT build EnergyPlus models from scratch. Instead:
 - Tables 1–7 embedded in text; figure cross-references included (Fig. 4–8)
 - Status: ready for author review and revision
 
-*Last updated: 2026-04-15*
+### All 14 figures generated (Task 13, 2026-04-20)
+- Script: `code/postprocessing/generate_all_figures.py` (single script for all 14 figs)
+- Output: `figure/fig{01..14}_*.png` at 300 dpi
+- Style: Era 1=#D85A30, Era 2=#2E75B6, Era 3=#1D9E75; Heating=#E24B4A, Cooling=#378ADD, PV=#EF9F27
+- Fig 01: Study area map (China, HSCW zone), monthly T+precip, climate card
+- Fig 02: 6-stage methodology flowchart
+- Fig 03: Archetype characteristics (8 parameters × 3 eras bar charts)
+- Fig 04: Baseline EUI stacked bar (heating/cooling/lighting/equipment/fans/DHW)
+- Fig 05: Morris μ* vs σ scatter, 3 panels by era
+- Fig 06: Top-5 parameter importance horizontal bars, 3 panels
+- Fig 07: Retrofit savings grouped bar (5 measures × 3 eras)
+- Fig 08: Paired stacked bars Baseline vs R5, savings % annotated
+- Fig 09: PV demand vs generation (baseline EUI, R5 EUI, PV gen, net EUI)
+- Fig 10: Monthly PV generation bars + GHI line overlay (dual y-axis)
+- Fig 11: Climate ΔT grouped bars (annual/July/January, 4 SSP scenarios)
+- Fig 12: EUI line chart across 5 climate scenarios (Era 1 & 2, Baseline vs R5)
+- Fig 13: Heating/cooling share stacked bars, 3 eras × 5 climate scenarios
+- Fig 14: Stepwise EUI reduction (baseline→R5→R5+PV→2080 SSP5-8.5), metric cards
+
+*Last updated: 2026-04-20*

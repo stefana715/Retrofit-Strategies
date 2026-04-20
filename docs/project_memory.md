@@ -192,12 +192,14 @@ We do NOT build EnergyPlus models from scratch. Instead:
   - Era 3 already cooling-dominated: heat/cool ratio = 0.72 in current climate
   - R5 retrofit effectively eliminates heating in all scenarios — cooling becomes the sole challenge
 
-### Manuscript v1 (Task 12, 2026-04-15)
-- `draft/manuscript_v1.md` — complete first draft (~10,000 words)
-- Structure: Abstract, Introduction (~1500w), Methodology (~2500w), Results (~3000w), Discussion (~1500w), Conclusions (~500w), 40 references
-- All actual simulation numbers cited inline from CSVs
-- Tables 1–7 embedded in text; figure cross-references included (Fig. 4–8)
-- Status: ready for author review and revision
+### Manuscript v1 (Task 12/revised 2026-04-20)
+- `draft/manuscript_v1.md` — complete first draft, fully revised (~9,600 words text + references)
+- Structure: Abstract (250w), Introduction (1,550w), Methodology (2,600w), Results (3,050w), Discussion (1,600w), Conclusions (520w), 50 references
+- All actual simulation numbers cited inline from data/processed/*.csv
+- Tables 1–9 embedded in text with correct numbering; all 14 figure cross-references (Figs. 1–14) aligned to generated figures
+- Figure captions section included at end
+- Key improvements over initial draft: correct EnergyPlus v24.1, fixed duplicate reference, proper 14-figure numbering, Table 9 for climate scenarios, more detailed end-use decomposition discussion, Figure Captions section
+- Status: ready for author review and journal submission preparation
 
 ### All 14 figures generated (Task 13, 2026-04-20)
 - Script: `code/postprocessing/generate_all_figures.py` (single script for all 14 figs)
